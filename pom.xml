@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.Yoll</groupId>
-    <artifactId>selenium-cucumberdemo-framework-c14</artifactId>
+    <artifactId>selenium-cucumber-demo-framework-c14</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
