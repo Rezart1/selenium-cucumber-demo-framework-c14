@@ -19,7 +19,10 @@ import org.junit.runner.RunWith;
         // dryRun will check if you have all the steps defined in your feature files
         // if set to true it will skip the test and just check if all steps are defined
         // if set to false it will simply run the scripts
-        dryRun  = false
+        dryRun  = false,
+        tags="@listOfListsDataTable",
+        plugin = { "pretty", "html:target/reports/cucumber-reports.html" }
+
 )
 public class TestRunner {
     // there is no code in the class itself
