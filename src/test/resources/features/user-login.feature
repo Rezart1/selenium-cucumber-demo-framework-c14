@@ -5,12 +5,12 @@ Feature: Login Functionality
 #  Background: Preliminary steps
 #    Given user navigates to orangeHrm login page
 #
-#  @validLogin @smoke
-#  Scenario: User can login with valid credentials
-#    When user logs in with username "yoll-student" and password "Bootcamp5#"
-#    And user clicks login button
-#    Then user is redirected to the homepage
-#    * quit the driver
+  @validLogin @smoke
+  Scenario: User can login with valid credentials
+    When user logs in with username "yoll-student" and password "Bootcamp5#"
+    And user clicks login button
+    Then user is redirected to the homepage
+    * quit the driver
 #
 #  @invalidLogin @smoke
 #  Scenario: User cannot login with invalid credentials
@@ -31,12 +31,7 @@ Feature: Login Functionality
 #    Then user can see an error message "Password cannot be empty"
 #    * quit the driver
 #
-#  @run
-#  Scenario: Provide different data
-#    * this is a string "hello, world!"
-#    * this is a double 20.99
-#    * this is a integer 100
-#    * quit the driver
+#
   @invalidLogin
   Scenario Outline: User cannot login with invalid credentials <testCase>
     When user logs in with username "<username>" and password "<password>"

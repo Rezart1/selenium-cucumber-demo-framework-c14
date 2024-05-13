@@ -4,11 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utilities.Driver;
 
 public class BestBuySearchPage {
 
-    public BestBuySearchPage(WebDriver driver){
-        PageFactory.initElements(driver, this);
+    public BestBuySearchPage(){
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(id = "gh-search-input")
