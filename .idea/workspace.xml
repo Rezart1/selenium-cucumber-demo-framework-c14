@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85fc2a44-a46f-42bd-9877-703771d9c7c4" name="Changes" comment="Cucumber classes added: BestBuy application: Scenario outline and DataTables">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BestBuySearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/BestBuySteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/DataTableSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/bestbuy-search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/data-tables-exmple.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/home-page.feature" afterDir="false" />
+    <list default="true" id="85fc2a44-a46f-42bd-9877-703771d9c7c4" name="Changes" comment="Singleton Driver class, Properties and Hooks implementation in cucumber framework">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HerokuAppPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/WaitPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/HerokuAppSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/explicit-waits.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/Yoll/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/Yoll/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/user-login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/user-login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +48,9 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/applemac2/IdeaProjects/selenium-cucumber-demo-framework-c14&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/applemac2/IdeaProjects/selenium-cucumberdemo-framework-c14/src/main/java/io/Yoll/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
@@ -113,9 +109,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaitPractice.refactorWithImplicitWait" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-cucumber-demo-framework-c14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.WaitPractice" />
+      <option name="METHOD_NAME" value="refactorWithImplicitWait" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitPractice.useOfThreadSleeeps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-cucumber-demo-framework-c14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.WaitPractice" />
+      <option name="METHOD_NAME" value="useOfThreadSleeeps" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner (1)" />
+        <item itemvalue="JUnit.WaitPractice.refactorWithImplicitWait" />
+        <item itemvalue="JUnit.WaitPractice.useOfThreadSleeeps" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: user can login with valid credentials" />
       </list>
@@ -144,13 +174,35 @@
       <option name="project" value="LOCAL" />
       <updated>1714707263957</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cucumber classes added: BestBuy application: Scenario outline and DataTables">
+      <created>1715391024851</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715391024851</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cucumber classes added: BestBuy application: Scenario outline and DataTables">
+      <created>1715393171035</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715393171035</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Singleton Driver class, Properties and Hooks implementation in cucumber framework">
+      <created>1715559921071</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715559921071</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cucumber classes added" />
     <MESSAGE value="Cucumber classes added: BestBuy application: Scenario outline and DataTables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cucumber classes added: BestBuy application: Scenario outline and DataTables" />
+    <MESSAGE value="Singleton Driver class, Properties and Hooks implementation in cucumber framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton Driver class, Properties and Hooks implementation in cucumber framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
