@@ -56,18 +56,29 @@ public class HerokuAppSteps {
 //        String actualMessage = herokuAppPage.message.getText();
 //        Assert.assertEquals("Message verification failed.", expectedMessage, actualMessage);
 //    }
+@Then("user can see a {string} message")
+public void user_can_see_a_message(String expectedMessage) {
+    // These two lines will be same for any element so they should be moved to utilities
+    Wait<WebDriver> explicitWait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(10));
+    explicitWait.until(ExpectedConditions.visibilityOf(herokuAppPage.message));
 
-    @Then("user can see a {string} message")
-    public void user_can_see_a_message(String expectedMessage) {
+    Assert.assertEquals("Message verification failed.", expectedMessage, herokuAppPage.message.getText());
+}
 
-        // Another way of applying waits will Fluent Wait, basically it is very close to Explicit wait but more flexible
+    @When("user clicks on example two")
+        public void user_clicks_on_example_two() {
+            herokuAppPage.exampleTwoLink.click();
+        }
+    @Then("user can see a message {string}")
+    public void user_can_see_a_message_fluent(String expectedMessage) {
         Wait<WebDriver> fluentWait = new FluentWait<>(Driver.getDriver())
                 .withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofMillis(250))
                 .ignoring(NoSuchElementException.class)
-                .withMessage("The element failed to locate withing 10 seconds with palling time of 250 mills");
+                .withMessage("The locator for element failed with polliung time of 250 mills and a 10 seconds max limit");
 
         fluentWait.until(ExpectedConditions.visibilityOf(herokuAppPage.message));
+
 
         String actualMessage = herokuAppPage.message.getText();
         Assert.assertEquals("Message verification failed.", expectedMessage, actualMessage);Assert.assertEquals("Message verification failed ", expectedMessage, actualMessage);

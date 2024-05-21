@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
         // if set to true it will skip the test and just check if all steps are defined
         // if set to false it will simply run the scripts
         dryRun  = false,
-        tags="@heroku_app",
+        tags="@modal",
         plugin = { "pretty", "html:target/reports/cucumber-reports.html" }
 
 )

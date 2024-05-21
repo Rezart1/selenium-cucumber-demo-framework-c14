@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85fc2a44-a46f-42bd-9877-703771d9c7c4" name="Changes" comment="Singleton Driver class, Properties and Hooks implementation in cucumber framework">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HerokuAppPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/WaitPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/HerokuAppSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/explicit-waits.feature" afterDir="false" />
+    <list default="true" id="85fc2a44-a46f-42bd-9877-703771d9c7c4" name="Changes" comment="Waits">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PopUpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/AlertsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/AlertsPractice2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/ImplicitWaitPracticeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/PopUpsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/PopUpsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/WaitsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/popUps.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/waits.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/WaitPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/WaitPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/HerokuAppSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/HerokuAppSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/explicit-waits.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,21 +68,66 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner (1)">
-    <configuration name="Scenario: user can login with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/user-login.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="selenium-cucumberdemo-framework-c14" />
-      <option name="NAME_FILTER" value="^user can login with valid credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user can login with valid credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: user can login with valid credentials" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+    <configuration name="AlertsPractice2.testBrowserConfirmAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-cucumber-demo-framework-c14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.AlertsPractice2" />
+      <option name="METHOD_NAME" value="testBrowserConfirmAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertsPractice.testBrowserAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-cucumber-demo-framework-c14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.AlertsPractice" />
+      <option name="METHOD_NAME" value="testBrowserAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PopUpsPractice.testModalPopUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-cucumber-demo-framework-c14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.PopUpsPractice" />
+      <option name="METHOD_NAME" value="testModalPopUp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PopUpsPractice.testModealPopUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-cucumber-demo-framework-c14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.PopUpsPractice" />
+      <option name="METHOD_NAME" value="testModealPopUp" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,60 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium-cucumberdemo-framework-c14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaitPractice.refactorWithImplicitWait" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium-cucumber-demo-framework-c14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.WaitPractice" />
-      <option name="METHOD_NAME" value="refactorWithImplicitWait" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaitPractice.useOfThreadSleeeps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium-cucumber-demo-framework-c14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.WaitPractice" />
-      <option name="METHOD_NAME" value="useOfThreadSleeeps" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner (1)" />
-        <item itemvalue="JUnit.WaitPractice.refactorWithImplicitWait" />
-        <item itemvalue="JUnit.WaitPractice.useOfThreadSleeeps" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: user can login with valid credentials" />
+        <item itemvalue="JUnit.AlertsPractice2.testBrowserConfirmAlert" />
+        <item itemvalue="JUnit.AlertsPractice.testBrowserAlert" />
+        <item itemvalue="JUnit.PopUpsPractice.testModalPopUp" />
+        <item itemvalue="JUnit.PopUpsPractice.testModealPopUp" />
       </list>
     </recent_temporary>
   </component>
@@ -195,14 +201,22 @@
       <option name="project" value="LOCAL" />
       <updated>1715559921071</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Waits">
+      <created>1715912494053</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715912494053</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cucumber classes added" />
     <MESSAGE value="Cucumber classes added: BestBuy application: Scenario outline and DataTables" />
     <MESSAGE value="Singleton Driver class, Properties and Hooks implementation in cucumber framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton Driver class, Properties and Hooks implementation in cucumber framework" />
+    <MESSAGE value="Waits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Waits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -31,7 +31,7 @@ public class WaitPractice {
         passwordInputBox.sendKeys("secret_sauce");
         loginButton.click();
         // To wait until the page gets loaded we will need to wait
-        Thread.sleep(10000); // dead wait, hard wait
+        Thread.sleep(1000); // dead wait, hard wait
         // We navigated to home page and we need to click on the backpack item title
         WebElement backpackTitle = driver.findElement(By.xpath("//*[text() = 'Sauce Labs Backpack']"));
         backpackTitle.click();
@@ -39,7 +39,7 @@ public class WaitPractice {
         WebElement backToProducts = driver.findElement(By.id("back-to-products"));
         backToProducts.click();
         // To wait until the page gets loaded we will need to wait
-        Thread.sleep(10000);
+        Thread.sleep(1000);
         WebElement bikeLightTitle = driver.findElement(By.xpath("//*[text() = 'Sauce Labs Bike Light']"));
         bikeLightTitle.click();
 
