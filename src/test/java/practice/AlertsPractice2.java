@@ -14,6 +14,7 @@ import java.time.Duration;
 
 public class AlertsPractice2 {
 
+
     /*
     * Scenario: Verify user can accept a confirm alert
         Given user lands on https://the-internet.herokuapp.com/javascript_alerts
