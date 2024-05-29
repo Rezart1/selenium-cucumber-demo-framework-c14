@@ -5,10 +5,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
-
+/**
+ * LoginPage represent real HRM Login Page as a WebElements repository
+ * The properties are public so we can access them directly
+ * Here PageFactory is used to initialize the WebElements with @FindBy annotations
+ * */
 public class LoginPage {
 
 
+//    private WebDriver driver;
+//
+//    public LoginPage(WebDriver driver){
+//        this.driver = driver;
+//        PageFactory.initElements(driver, this);
+//    }
         public LoginPage(){
             PageFactory.initElements(Driver.getDriver(), this);
         }
@@ -24,5 +34,10 @@ public class LoginPage {
 
     @FindBy(id = "spanMessage")
     public WebElement errorMessage;
+    public void login(String username, String password){
+        usernameInputBox.sendKeys(username);
+        passwordInputBox.sendKeys(password);
+        loginButton.click();
+    }
 
     }
