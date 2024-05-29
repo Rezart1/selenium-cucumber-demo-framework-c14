@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85fc2a44-a46f-42bd-9877-703771d9c7c4" name="Changes" comment="Waits">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PopUpPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/AlertsPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/AlertsPractice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/ImplicitWaitPracticeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/PopUpsPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/PopUpsSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/WaitsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/popUps.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/waits.feature" afterDir="false" />
+    <list default="true" id="85fc2a44-a46f-42bd-9877-703771d9c7c4" name="Changes" comment="Iframes classes added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DemoQaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PIMPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/SpreadOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/DemoQaSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/browser-windows-tabs.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/js-executor-practice.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/WaitPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/WaitPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/HerokuAppSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/HerokuAppSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/explicit-waits.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/homePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/configs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configs.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/iframes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/iframe-practice.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/waits.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/explicit-waits.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +57,9 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/applemac2/IdeaProjects/selenium-cucumber-demo-framework-c14&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/applemac2/IdeaProjects/selenium-cucumberdemo-framework-c14/src/main/java/io/Yoll/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.16375345&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
@@ -68,7 +69,8 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner (1)">
-    <configuration name="AlertsPractice2.testBrowserConfirmAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpreadOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.SpreadOperator" />
       <module name="selenium-cucumber-demo-framework-c14" />
       <extension name="coverage">
         <pattern>
@@ -76,31 +78,31 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.AlertsPractice2" />
-      <option name="METHOD_NAME" value="testBrowserConfirmAlert" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertsPractice.testBrowserAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Get unique identifier of the main window" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/browser-windows-tabs.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="selenium-cucumber-demo-framework-c14" />
+      <option name="NAME_FILTER" value="^Get unique identifier of the main window$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Get unique identifier of the main window$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Get unique identifier of the main window" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.AlertsPractice" />
-      <option name="METHOD_NAME" value="testBrowserAlert" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PopUpsPractice.testModalPopUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IFramesPractice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-cucumber-demo-framework-c14" />
       <extension name="coverage">
         <pattern>
@@ -109,14 +111,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.PopUpsPractice" />
-      <option name="METHOD_NAME" value="testModalPopUp" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="practice.IFramesPractice" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PopUpsPractice.testModealPopUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IFramesPractice.interactWithElementsInDifferentIFrames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-cucumber-demo-framework-c14" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +126,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.PopUpsPractice" />
-      <option name="METHOD_NAME" value="testModealPopUp" />
+      <option name="MAIN_CLASS_NAME" value="practice.IFramesPractice" />
+      <option name="METHOD_NAME" value="interactWithElementsInDifferentIFrames" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,10 +151,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner (1)" />
-        <item itemvalue="JUnit.AlertsPractice2.testBrowserConfirmAlert" />
-        <item itemvalue="JUnit.AlertsPractice.testBrowserAlert" />
-        <item itemvalue="JUnit.PopUpsPractice.testModalPopUp" />
-        <item itemvalue="JUnit.PopUpsPractice.testModealPopUp" />
+        <item itemvalue="Application.SpreadOperator" />
+        <item itemvalue="Cucumber Java.Scenario: Get unique identifier of the main window" />
+        <item itemvalue="JUnit.IFramesPractice.interactWithElementsInDifferentIFrames" />
+        <item itemvalue="JUnit.IFramesPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -208,15 +209,48 @@
       <option name="project" value="LOCAL" />
       <updated>1715912494053</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="PopUps classes added">
+      <created>1716334410489</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716334410489</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Iframes classes added">
+      <created>1716428309669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716428309669</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cucumber classes added" />
     <MESSAGE value="Cucumber classes added: BestBuy application: Scenario outline and DataTables" />
     <MESSAGE value="Singleton Driver class, Properties and Hooks implementation in cucumber framework" />
     <MESSAGE value="Waits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Waits" />
+    <MESSAGE value="PopUps classes added" />
+    <MESSAGE value="Iframes classes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iframes classes added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
